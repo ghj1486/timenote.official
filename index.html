@@ -3,97 +3,61 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TimeNote</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TimeNote 커버</title>
   <style>
-    * {
+    * {{
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-    body {
+    }}
+    body {{
       font-family: 'Noto Sans KR', sans-serif;
-      background-color: #ffffff;
-      color: #111827;
-    }
-    header {
-      background-color: #f9fafb;
-      padding: 80px 20px 40px;
+      background-color: #fff;
       text-align: center;
-    }
-    header img {
-      width: 120px;
-      margin-bottom: 20px;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #6b7280;
-    }
-    section {
-      max-width: 960px;
+      padding-bottom: 60px;
+    }}
+    img {{
+      max-width: 100%;
+      height: auto;
+      display: block;
       margin: 0 auto;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #111;
-    }
-    section p {
-      font-size: 1.1rem;
-      color: #374151;
-      margin-bottom: 30px;
-    }
-    iframe {
-      width: 100%;
-      height: 720px;
-      border: none;
-    }
-    footer {
-      background-color: #f3f4f6;
+    }}
+    .form-section {{
+      background: #fff;
       padding: 40px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: #6b7280;
-    }
-    footer a {
-      color: #111827;
+    }}
+    .form-section h1 {{
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }}
+    .form-section p {{
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 24px;
+    }}
+    .form-section a {{
+      display: inline-block;
+      margin-top: 20px;
+      background: black;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 16px;
       text-decoration: none;
-      font-weight: 500;
-    }
+      font-weight: 600;
+    }}
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="timenote_logo.png" alt="TimeNote 로고" />
-    <h1>내가 만들어가는 나의 공간</h1>
-    <p>디지털 타임캡슐 기반 추모 플랫폼</p>
-  </header>
+  <img src="cover_main.png" alt="타임노트 소개 디자인" />
 
-  <section>
-    <h2>TimeNote란?</h2>
-    <p>타임노트는 사진, 영상, 음성, 편지 등 다양한 형태의 디지털 콘텐츠를 남겨<br />
-    떠난 이후에도 사랑하는 사람에게 전할 수 있는 서비스입니다.</p>
-  </section>
-
-  <section>
-    <h2>사전등록</h2>
-    <p>아래 폼을 작성하시면 정식 런칭 시 우선적으로 안내드릴게요.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrd_4uxhBcn8_35kVjCNwpyvSBQNBOLVKgFEwU1ORyzCp8Jw/viewform?embedded=true">로드 중…</iframe>
-  </section>
-
-  <footer>
-    문의: <a href="mailto:ghj050806@konkuk.ac.kr">ghj050806@konkuk.ac.kr</a> |
-    <a href="https://www.instagram.com/timenote.official?igsh=OGhvcW12ajI0OTlr" target="_blank">@timenote.official</a> |
-    010-4393-5445
-  </footer>
+  <div class="form-section">
+    <img src="cover_form.png" alt="사전등록 디자인" />
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrd_4uxhBcn8_35kVjCNwpyvSBQNBOLVKgFEwU1ORyzCp8Jw/viewform" target="_blank">사전등록하기</a>
+  </div>
 
 </body>
 </html>
